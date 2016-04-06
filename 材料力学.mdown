@@ -1,0 +1,28 @@
+###応力$\sigma$ ($N/m^2$)
+$$\sigma = \dfrac{P}{A}$$
+
+P:外力の大きさ、A:断面積
+
+###歪み$\epsilon$(無単位)
+$$\epsilon = \dfrac{\delta}{l}$$
+
+$\delta$:物体の伸び、l:物体の長さ
+
+###ヤング率E
+$$\sigma = E * \epsilon$$
+
+<問題1>:トラス構造</br>
+節点:力を伝えるがモーメントは伝えない
+
+###
+[U] = $\dfrac{[F]}{[L]}$
+
+[W] = $\dfrac{[F][L]}{[L]^3} = \dfrac{[F]}{[L]^2}$
+
+[E] = $[\sigma] = \dfrac{[F]}{[L]^2}$
+
+停留条件
+$$\dfrac{\partial\Pi}{\partial u_i} = 0$$
+
+###わからなかったこと
+・反力とは
